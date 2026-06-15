@@ -1,0 +1,467 @@
+# Copyright (C) 2024 TVN Notify Hub
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: TVN Notify Hub 1.0.0\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: tvn-notify-hub\n"
+
+#: includes/class-tvn-notify-listener.php:246
+msgid "%1$s commented on “%2$s”"
+msgstr "%1$s heeft gereageerd op “%2$s”"
+
+#: channels/class-tvn-notify-channel-email.php:125
+msgid "A list of emails, separated by commas (sent in addition to the selected admins)."
+msgstr "Een lijst met e-mailadressen, gescheiden door komma's (verzonden naast de geselecteerde beheerders)."
+
+#: channels/class-tvn-notify-channel-telegram.php:73
+msgid "A token is already saved. Leave blank to keep it, or enter a new one to replace it."
+msgstr "Er is al een token opgeslagen. Laat leeg om het te behouden, of voer een nieuw token in om het te vervangen."
+
+#: channels/class-tvn-notify-channel-telegram.php:85
+msgid "A user ID, a group ID (negative number), or a channel @username. Tip to get an ID: add the bot to a group then open https://api.telegram.org/bot<TOKEN>/getUpdates to see \"chat\":{\"id\":...}. For a channel, add the bot as an admin and use @username."
+msgstr "Een gebruikers-ID, een groeps-ID (negatief getal) of een @gebruikersnaam van een kanaal. Tip om een ID te verkrijgen: voeg de bot toe aan een groep en open vervolgens https://api.telegram.org/bot<TOKEN>/getUpdates om \"chat\":{\"id\":...} te zien. Voor een kanaal voegt u de bot als beheerder toe en gebruikt u @gebruikersnaam."
+
+#: channels/class-tvn-notify-channel-discord.php:75 channels/class-tvn-notify-channel-slack.php:69
+msgid "A webhook is already saved. Leave blank to keep it, or enter a new one to replace it."
+msgstr "Er is al een Webhook opgeslagen. Laat leeg om deze te behouden, of voer een nieuwe in om deze te vervangen."
+
+#: includes/class-tvn-notify-admin.php:152
+msgid "Activate"
+msgstr "Activeren"
+
+#: includes/class-tvn-notify-admin.php:163
+msgid "Active Notifications — choose actions"
+msgstr "Actieve meldingen — kies acties"
+
+#: includes/class-tvn-notify-admin.php:300
+msgid "All log entries cleared."
+msgstr "Alle logvermeldingen gewist."
+
+#: includes/class-tvn-notify-admin.php:216
+msgid "Attach the hook's technical arguments to the message (useful for debugging)"
+msgstr "Voeg de technische argumenten van de hook toe aan het bericht (handig voor foutopsporing)"
+
+#: includes/class-tvn-notify-listener.php:272
+msgid "Attempted username: %s"
+msgstr "Geprobeerde gebruikersnaam: %s"
+
+#: includes/class-tvn-notify-admin.php:235
+msgid "Available placeholders:"
+msgstr "Beschikbare placeholders:"
+
+#: channels/class-tvn-notify-channel-discord.php:103
+msgid "Avatar image for the bot (public URL). Discord does not use emoji as an icon like Slack."
+msgstr "Avatarafbeelding voor de Bot (openbare URL). Discord gebruikt geen emoji als pictogram zoals Slack."
+
+#: channels/class-tvn-notify-channel-discord.php:90 channels/class-tvn-notify-channel-slack.php:99
+msgid "Bot Custom Icon"
+msgstr "Aangepast pictogram voor Bot"
+
+#: channels/class-tvn-notify-channel-slack.php:84
+msgid "Bot Emoji"
+msgstr "Bot-emoji"
+
+#: channels/class-tvn-notify-channel-discord.php:81 channels/class-tvn-notify-channel-slack.php:75
+msgid "Bot Name"
+msgstr "Bot-naam"
+
+#: channels/class-tvn-notify-channel-telegram.php:65
+msgid "Bot Token"
+msgstr "Bot Token"
+
+#: channels/class-tvn-notify-channel-telegram.php:138
+msgid "Bot Token or Chat ID is not configured / is invalid."
+msgstr "Bot Token of Chat ID is niet geconfigureerd / is ongeldig."
+
+#: includes/class-tvn-notify-admin.php:326
+msgid "Channel"
+msgstr "Kanaal"
+
+#: channels/class-tvn-notify-channel-slack.php:110
+msgid "Channel (optional)"
+msgstr "Kanaal (optioneel)"
+
+#: includes/class-tvn-notify-admin.php:244
+msgid "Channels"
+msgstr "Kanalen"
+
+#: channels/class-tvn-notify-channel-telegram.php:79
+msgid "Chat ID"
+msgstr "Chat ID"
+
+#: channels/class-tvn-notify-channel-email.php:116
+msgid "Check the admins who should receive notifications."
+msgstr "Selecteer de beheerders die meldingen moeten ontvangen."
+
+#: includes/class-tvn-notify-admin.php:318
+msgid "Clear all log"
+msgstr "Volledig logboek wissen"
+
+#: channels/class-tvn-notify-channel-email.php:137 includes/class-tvn-notify-admin.php:230 includes/class-tvn-notify-settings.php:127
+msgid "Content"
+msgstr "Inhoud"
+
+#: channels/class-tvn-notify-channel-telegram.php:71
+msgid "Create a bot by chatting with @BotFather on Telegram → /newbot → copy the token."
+msgstr "Maak een bot aan door te chatten met @BotFather op Telegram → /newbot → kopieer het token."
+
+#: includes/class-tvn-notify-admin.php:188
+msgid "Custom hooks"
+msgstr "Aangepaste hooks"
+
+#: channels/class-tvn-notify-channel-slack.php:106
+msgid "Custom icon image for the bot (takes priority over Bot Emoji). Should be ≤ 128px and ≤ 64KB."
+msgstr "Aangepaste pictogramafbeelding voor de Bot (heeft voorrang op Bot-emoji). Moet ≤ 128px en ≤ 64KB zijn."
+
+#: channels/class-tvn-notify-channel-discord.php:22
+msgid "Discord"
+msgstr "Discord"
+
+#: channels/class-tvn-notify-channel-discord.php:193
+msgid "Discord returned an error (HTTP %1$d): %2$s"
+msgstr "Discord gaf een fout terug (HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-discord.php:131
+msgid "Discord: Webhook URL is invalid. It must look like https://discord.com/api/webhooks/... (kept the previous value)."
+msgstr "Discord: Webhook-URL is ongeldig. Deze moet eruitzien als https://discord.com/api/webhooks/... (de vorige waarde is behouden)."
+
+#: channels/class-tvn-notify-channel-discord.php:86
+msgid "Display name of the bot in Discord (overrides the webhook default name)."
+msgstr "Weergavenaam van de Bot in Discord (overschrijft de standaardnaam van de Webhook)."
+
+#: channels/class-tvn-notify-channel-email.php:23
+msgid "Email"
+msgstr "Email"
+
+#: channels/class-tvn-notify-channel-email.php:153
+msgid "Email template shared by ALL actions. Available placeholders:"
+msgstr "E-mailsjabloon dat door ALLE acties wordt gedeeld. Beschikbare placeholders:"
+
+#: channels/class-tvn-notify-channel-slack.php:89
+msgid "Emoji used as the icon shown in chat, e.g. :zap: (ignored if Bot Custom Icon is set)."
+msgstr "Emoji die wordt gebruikt als het pictogram in de chat, bijv. :zap: (genegeerd als Aangepast pictogram voor Bot is ingesteld)."
+
+#: channels/class-tvn-notify-channel-discord.php:57
+msgid "Enable Discord"
+msgstr "Discord inschakelen"
+
+#: channels/class-tvn-notify-channel-email.php:84
+msgid "Enable Email"
+msgstr "Email inschakelen"
+
+#: channels/class-tvn-notify-channel-slack.php:51
+msgid "Enable Slack"
+msgstr "Slack inschakelen"
+
+#: channels/class-tvn-notify-channel-telegram.php:55
+msgid "Enable Telegram"
+msgstr "Telegram inschakelen"
+
+#: includes/class-tvn-notify-admin.php:157
+msgid "Enable sending notifications (turning this off stops everything)"
+msgstr "Verzenden van meldingen inschakelen (dit uitschakelen stopt alles)"
+
+#: includes/class-tvn-notify-admin.php:329 includes/class-tvn-notify-admin.php:352
+msgid "Error"
+msgstr "Fout"
+
+#: includes/class-tvn-notify-admin.php:197
+msgid "Example:"
+msgstr "Voorbeeld:"
+
+#: includes/class-tvn-notify-settings.php:107
+msgid "Failed login"
+msgstr "Mislukte aanmelding"
+
+#: includes/class-tvn-notify-listener.php:140
+msgid "Guest"
+msgstr "Gast"
+
+#: includes/class-tvn-notify-admin.php:325
+msgid "Hook"
+msgstr "Hook"
+
+#: includes/class-tvn-notify-settings.php:103
+msgid "Logout"
+msgstr "Afmelden"
+
+#: includes/class-tvn-notify-settings.php:145
+msgid "Media uploaded"
+msgstr "Media geüpload"
+
+#: includes/class-tvn-notify-admin.php:227
+msgid "Message template"
+msgstr "Berichtsjabloon"
+
+#: includes/class-tvn-notify-settings.php:141
+msgid "New comment"
+msgstr "Nieuwe reactie"
+
+#: includes/class-tvn-notify-settings.php:111
+msgid "New user registration"
+msgstr "Nieuwe gebruikersregistratie"
+
+#: channels/class-tvn-notify-channel-email.php:102
+msgid "No admin users found."
+msgstr "Geen beheerdersgebruikers gevonden."
+
+#: includes/class-tvn-notify-admin.php:283
+msgid "No channel is ready. Enable and configure at least one channel."
+msgstr "Geen enkel kanaal is klaar. Schakel ten minste één kanaal in en configureer het."
+
+#: includes/class-tvn-notify-admin.php:313
+msgid "No log entries yet."
+msgstr "Nog geen logvermeldingen."
+
+#: channels/class-tvn-notify-channel-email.php:212
+msgid "No valid recipient."
+msgstr "Geen geldige ontvanger."
+
+#: channels/class-tvn-notify-channel-email.php:31
+msgid "Notification: {action}"
+msgstr "Melding: {action}"
+
+#: includes/class-tvn-notify-admin.php:34 includes/class-tvn-notify-admin.php:35
+msgid "Notify Hub"
+msgstr "Notify Hub"
+
+#: includes/class-tvn-notify-admin.php:350
+msgid "OK"
+msgstr "OK"
+
+#: includes/class-tvn-notify-admin.php:194
+msgid "One hook per line to catch actions from OTHER PLUGINS (WooCommerce, CF7, Awesome Support...). Format: hook_name or hook_name|number_of_args. Lines starting with # are comments."
+msgstr "Eén hook per regel om acties van ANDERE PLUGINS op te vangen (WooCommerce, CF7, Awesome Support...). Formaat: hook_name of hook_name|number_of_args. Regels die met # beginnen zijn opmerkingen."
+
+#: includes/class-tvn-notify-admin.php:211
+msgid "Only notify when the actor is logged in"
+msgstr "Alleen melden wanneer de actor is aangemeld"
+
+#: includes/class-tvn-notify-admin.php:206
+msgid "Options"
+msgstr "Opties"
+
+#: channels/class-tvn-notify-channel-email.php:120
+msgid "Other emails (optional)"
+msgstr "Andere e-mailadressen (optioneel)"
+
+#: channels/class-tvn-notify-channel-slack.php:115
+msgid "Override the webhook default channel (e.g. #general or @user). Leave blank to use the webhook channel."
+msgstr "Overschrijf het standaardkanaal van de Webhook (bijv. #general of @user). Laat leeg om het Webhook-kanaal te gebruiken."
+
+#: includes/class-tvn-notify-admin.php:149
+msgid "Overview"
+msgstr "Overzicht"
+
+#: includes/class-tvn-notify-settings.php:123
+msgid "Password reset"
+msgstr "Wachtwoord opnieuw instellen"
+
+#: includes/class-tvn-notify-settings.php:151
+msgid "Plugin activated"
+msgstr "Plugin geactiveerd"
+
+#: includes/class-tvn-notify-settings.php:155
+msgid "Plugin deactivated"
+msgstr "Plugin gedeactiveerd"
+
+#: includes/class-tvn-notify-settings.php:133
+msgid "Post moved to trash"
+msgstr "Bericht naar prullenbak verplaatst"
+
+#: includes/class-tvn-notify-settings.php:137
+msgid "Post permanently deleted"
+msgstr "Bericht permanent verwijderd"
+
+#: includes/class-tvn-notify-settings.php:129
+msgid "Post status changed (publish / draft / pending...)"
+msgstr "Berichtstatus gewijzigd (publiceren / concept / in behandeling...)"
+
+#: includes/class-tvn-notify-settings.php:115
+msgid "Profile update"
+msgstr "Profielupdate"
+
+#: includes/class-tvn-notify-admin.php:310
+msgid "Recent send log"
+msgstr "Recent verzendlogboek"
+
+#: channels/class-tvn-notify-channel-email.php:94
+msgid "Recipients (admin users)"
+msgstr "Ontvangers (beheerdersgebruikers)"
+
+#: includes/class-tvn-notify-admin.php:256
+msgid "Save settings"
+msgstr "Instellingen opslaan"
+
+#: includes/class-tvn-notify-secret.php:49
+msgid "Saved (%s) — leave blank to keep it"
+msgstr "Opgeslagen (%s) — laat leeg om het te behouden"
+
+#: channels/class-tvn-notify-channel-discord.php:96 channels/class-tvn-notify-channel-slack.php:99
+msgid "Select image"
+msgstr "Afbeelding selecteren"
+
+#: includes/class-tvn-notify-admin.php:262
+msgid "Send a test message to every enabled and valid channel (save settings before testing)."
+msgstr "Stuur een testbericht naar elk ingeschakeld en geldig kanaal (sla de instellingen op voordat u test)."
+
+#: includes/class-tvn-notify-admin.php:141
+msgid "Send notifications to chat apps when a user performs an action you choose. Multi-channel architecture — currently supports Slack, ready to extend to Telegram, WhatsApp, X..."
+msgstr "Stuur meldingen naar chat-apps wanneer een gebruiker een door u gekozen actie uitvoert. Multi-channel-architectuur — ondersteunt momenteel Slack, klaar om uit te breiden naar Telegram, WhatsApp, X..."
+
+#: channels/class-tvn-notify-channel-discord.php:62
+msgid "Send notifications via Discord"
+msgstr "Meldingen verzenden via Discord"
+
+#: channels/class-tvn-notify-channel-email.php:89
+msgid "Send notifications via Email"
+msgstr "Meldingen verzenden via Email"
+
+#: channels/class-tvn-notify-channel-slack.php:56
+msgid "Send notifications via Slack"
+msgstr "Meldingen verzenden via Slack"
+
+#: channels/class-tvn-notify-channel-telegram.php:60
+msgid "Send notifications via Telegram"
+msgstr "Meldingen verzenden via Telegram"
+
+#: includes/class-tvn-notify-admin.php:261
+msgid "Send test"
+msgstr "Test verzenden"
+
+#: includes/class-tvn-notify-admin.php:266
+msgid "Send test message"
+msgstr "Testbericht verzenden"
+
+#: channels/class-tvn-notify-channel-telegram.php:95
+msgid "Send without a notification sound (disable_notification)"
+msgstr "Verzenden zonder meldingsgeluid (disable_notification)"
+
+#: includes/class-tvn-notify-admin.php:46
+msgid "Settings"
+msgstr "Instellingen"
+
+#: channels/class-tvn-notify-channel-telegram.php:90
+msgid "Silent send"
+msgstr "Stil verzenden"
+
+#: channels/class-tvn-notify-channel-slack.php:17
+msgid "Slack"
+msgstr "Slack"
+
+#: channels/class-tvn-notify-channel-slack.php:212
+msgid "Slack returned an error (HTTP %1$d): %2$s"
+msgstr "Slack gaf een fout terug (HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-slack.php:143
+msgid "Slack: Webhook URL is invalid. It must look like https://hooks.slack.com/services/... (kept the previous value)."
+msgstr "Slack: Webhook-URL is ongeldig. Deze moet eruitzien als https://hooks.slack.com/services/... (de vorige waarde is behouden)."
+
+#: includes/class-tvn-notify-admin.php:328
+msgid "Status"
+msgstr "Status"
+
+#: channels/class-tvn-notify-channel-email.php:129
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: includes/class-tvn-notify-settings.php:99
+msgid "Successful login"
+msgstr "Succesvolle aanmelding"
+
+#: includes/class-tvn-notify-settings.php:149
+msgid "System"
+msgstr "Systeem"
+
+#: includes/class-tvn-notify-admin.php:139
+msgid "TVN Notify Hub"
+msgstr "TVN Notify Hub"
+
+#: channels/class-tvn-notify-channel-telegram.php:24
+msgid "Telegram"
+msgstr "Telegram"
+
+#: channels/class-tvn-notify-channel-telegram.php:216
+msgid "Telegram returned an error (HTTP %1$d): %2$s"
+msgstr "Telegram gaf een fout terug (HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-telegram.php:125
+msgid "Telegram: Bot Token is invalid. It must look like 123456789:AA... (from @BotFather, kept the previous value)."
+msgstr "Telegram: Bot Token is ongeldig. Deze moet eruitzien als 123456789:AA... (van @BotFather, de vorige waarde is behouden)."
+
+#: includes/class-tvn-notify-listener.php:427
+msgid "Test message"
+msgstr "Testbericht"
+
+#: includes/class-tvn-notify-admin.php:290
+msgid "Test sent: %1$d succeeded, %2$d failed. See error details in the log below."
+msgstr "Test verzonden: %1$d geslaagd, %2$d mislukt. Zie de foutdetails in het logboek hieronder."
+
+#: channels/class-tvn-notify-channel-slack.php:80
+msgid "The name that will be shown in the Slack conversation."
+msgstr "De naam die wordt weergegeven in het Slack-gesprek."
+
+#: includes/class-tvn-notify-settings.php:159
+msgid "Theme switched"
+msgstr "Thema gewisseld"
+
+#: includes/class-tvn-notify-listener.php:437
+msgid "This is a test message for the TVN Notify Hub configuration."
+msgstr "Dit is een testbericht voor de configuratie van TVN Notify Hub."
+
+#: includes/class-tvn-notify-admin.php:324
+msgid "Time"
+msgstr "Tijd"
+
+#: includes/class-tvn-notify-admin.php:327
+msgid "User"
+msgstr "Gebruiker"
+
+#: includes/class-tvn-notify-settings.php:119
+msgid "User deleted"
+msgstr "Gebruiker verwijderd"
+
+#: includes/class-tvn-notify-settings.php:97
+msgid "Users"
+msgstr "Gebruikers"
+
+#: channels/class-tvn-notify-channel-discord.php:67 channels/class-tvn-notify-channel-slack.php:61
+msgid "Webhook URL"
+msgstr "Webhook-URL"
+
+#: channels/class-tvn-notify-channel-discord.php:145 channels/class-tvn-notify-channel-slack.php:159
+msgid "Webhook URL is not configured or is invalid."
+msgstr "Webhook-URL is niet geconfigureerd of is ongeldig."
+
+#: channels/class-tvn-notify-channel-discord.php:73
+msgid "Webhook URL of the Discord channel. Create it at: Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL."
+msgstr "Webhook-URL van het Discord-kanaal. Maak deze aan via: Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL."
+
+#: channels/class-tvn-notify-channel-slack.php:67
+msgid "Webhook URL provided by Slack. Create a new Incoming Webhook in your Slack workspace."
+msgstr "Webhook-URL verstrekt door Slack. Maak een nieuwe Incoming Webhook aan in uw Slack-werkruimte."
+
+#: includes/class-tvn-notify-admin.php:164
+msgid "Which actions do you want to be notified about?"
+msgstr "Over welke acties wilt u op de hoogte worden gehouden?"
+
+#: includes/class-tvn-notify-admin.php:221
+msgid "Write a log on each send"
+msgstr "Schrijf een logvermelding bij elke verzending"
+
+#: includes/class-tvn-notify-admin.php:77
+msgid "You do not have permission to perform this action."
+msgstr "U hebt geen toestemming om deze actie uit te voeren."
+
+#: channels/class-tvn-notify-channel-email.php:232
+msgid "wp_mail() returned false — check the site mail / SMTP sending configuration."
+msgstr "wp_mail() gaf false terug — controleer de e-mail- / SMTP-verzendconfiguratie van de site."
+
+#: includes/class-tvn-notify-listener.php:223
+msgid "“%1$s”: %2$s → %3$s"
+msgstr "“%1$s”: %2$s → %3$s"

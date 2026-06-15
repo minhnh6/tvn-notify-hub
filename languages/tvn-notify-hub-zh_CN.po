@@ -1,0 +1,467 @@
+# Copyright (C) 2024 TVN Notify Hub
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: TVN Notify Hub 1.0.0\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: tvn-notify-hub\n"
+
+#: includes/class-tvn-notify-listener.php:246
+msgid "%1$s commented on “%2$s”"
+msgstr "%1$s 评论了“%2$s”"
+
+#: channels/class-tvn-notify-channel-email.php:125
+msgid "A list of emails, separated by commas (sent in addition to the selected admins)."
+msgstr "以逗号分隔的电子邮件列表（除所选管理员外，也会发送至这些地址）。"
+
+#: channels/class-tvn-notify-channel-telegram.php:73
+msgid "A token is already saved. Leave blank to keep it, or enter a new one to replace it."
+msgstr "已保存一个令牌。留空以保留它，或输入新的令牌进行替换。"
+
+#: channels/class-tvn-notify-channel-telegram.php:85
+msgid "A user ID, a group ID (negative number), or a channel @username. Tip to get an ID: add the bot to a group then open https://api.telegram.org/bot<TOKEN>/getUpdates to see \"chat\":{\"id\":...}. For a channel, add the bot as an admin and use @username."
+msgstr "用户 ID、群组 ID（负数）或频道 @username。获取 ID 的提示：将 Bot 添加到群组，然后打开 https://api.telegram.org/bot<TOKEN>/getUpdates 查看 \"chat\":{\"id\":...}。对于频道，请将 Bot 添加为管理员并使用 @username。"
+
+#: channels/class-tvn-notify-channel-discord.php:75 channels/class-tvn-notify-channel-slack.php:69
+msgid "A webhook is already saved. Leave blank to keep it, or enter a new one to replace it."
+msgstr "已保存一个 Webhook。留空以保留它，或输入新的 Webhook 进行替换。"
+
+#: includes/class-tvn-notify-admin.php:152
+msgid "Activate"
+msgstr "启用"
+
+#: includes/class-tvn-notify-admin.php:163
+msgid "Active Notifications — choose actions"
+msgstr "已启用的通知 — 选择操作"
+
+#: includes/class-tvn-notify-admin.php:300
+msgid "All log entries cleared."
+msgstr "已清除所有日志记录。"
+
+#: includes/class-tvn-notify-admin.php:216
+msgid "Attach the hook's technical arguments to the message (useful for debugging)"
+msgstr "将钩子的技术参数附加到消息中（便于调试）"
+
+#: includes/class-tvn-notify-listener.php:272
+msgid "Attempted username: %s"
+msgstr "尝试的用户名：%s"
+
+#: includes/class-tvn-notify-admin.php:235
+msgid "Available placeholders:"
+msgstr "可用的占位符："
+
+#: channels/class-tvn-notify-channel-discord.php:103
+msgid "Avatar image for the bot (public URL). Discord does not use emoji as an icon like Slack."
+msgstr "Bot 的头像图片（公开 URL）。Discord 不像 Slack 那样使用 emoji 作为图标。"
+
+#: channels/class-tvn-notify-channel-discord.php:90 channels/class-tvn-notify-channel-slack.php:93
+msgid "Bot Custom Icon"
+msgstr "Bot 自定义图标"
+
+#: channels/class-tvn-notify-channel-slack.php:84
+msgid "Bot Emoji"
+msgstr "Bot Emoji"
+
+#: channels/class-tvn-notify-channel-discord.php:81 channels/class-tvn-notify-channel-slack.php:75
+msgid "Bot Name"
+msgstr "Bot 名称"
+
+#: channels/class-tvn-notify-channel-telegram.php:65
+msgid "Bot Token"
+msgstr "Bot Token"
+
+#: channels/class-tvn-notify-channel-telegram.php:138
+msgid "Bot Token or Chat ID is not configured / is invalid."
+msgstr "Bot Token 或 Chat ID 未配置 / 无效。"
+
+#: includes/class-tvn-notify-admin.php:326
+msgid "Channel"
+msgstr "渠道"
+
+#: channels/class-tvn-notify-channel-slack.php:110
+msgid "Channel (optional)"
+msgstr "频道（可选）"
+
+#: includes/class-tvn-notify-admin.php:244
+msgid "Channels"
+msgstr "渠道"
+
+#: channels/class-tvn-notify-channel-telegram.php:79
+msgid "Chat ID"
+msgstr "Chat ID"
+
+#: channels/class-tvn-notify-channel-email.php:116
+msgid "Check the admins who should receive notifications."
+msgstr "勾选应接收通知的管理员。"
+
+#: includes/class-tvn-notify-admin.php:318
+msgid "Clear all log"
+msgstr "清除所有日志"
+
+#: channels/class-tvn-notify-channel-email.php:137 includes/class-tvn-notify-admin.php:230 includes/class-tvn-notify-settings.php:127
+msgid "Content"
+msgstr "内容"
+
+#: channels/class-tvn-notify-channel-telegram.php:71
+msgid "Create a bot by chatting with @BotFather on Telegram → /newbot → copy the token."
+msgstr "在 Telegram 上与 @BotFather 对话创建一个 Bot → /newbot → 复制令牌。"
+
+#: includes/class-tvn-notify-admin.php:188
+msgid "Custom hooks"
+msgstr "自定义钩子"
+
+#: channels/class-tvn-notify-channel-slack.php:106
+msgid "Custom icon image for the bot (takes priority over Bot Emoji). Should be ≤ 128px and ≤ 64KB."
+msgstr "Bot 的自定义图标图片（优先于 Bot Emoji）。应 ≤ 128px 且 ≤ 64KB。"
+
+#: channels/class-tvn-notify-channel-discord.php:22
+msgid "Discord"
+msgstr "Discord"
+
+#: channels/class-tvn-notify-channel-discord.php:193
+msgid "Discord returned an error (HTTP %1$d): %2$s"
+msgstr "Discord 返回了一个错误（HTTP %1$d）：%2$s"
+
+#: channels/class-tvn-notify-channel-discord.php:131
+msgid "Discord: Webhook URL is invalid. It must look like https://discord.com/api/webhooks/... (kept the previous value)."
+msgstr "Discord：Webhook URL 无效。其格式应类似 https://discord.com/api/webhooks/...（已保留之前的值）。"
+
+#: channels/class-tvn-notify-channel-discord.php:86
+msgid "Display name of the bot in Discord (overrides the webhook default name)."
+msgstr "Bot 在 Discord 中显示的名称（会覆盖 Webhook 的默认名称）。"
+
+#: channels/class-tvn-notify-channel-email.php:23
+msgid "Email"
+msgstr "Email"
+
+#: channels/class-tvn-notify-channel-email.php:153
+msgid "Email template shared by ALL actions. Available placeholders:"
+msgstr "所有操作共用的 Email 模板。可用的占位符："
+
+#: channels/class-tvn-notify-channel-slack.php:89
+msgid "Emoji used as the icon shown in chat, e.g. :zap: (ignored if Bot Custom Icon is set)."
+msgstr "用作聊天中显示图标的 emoji，例如 :zap:（如果设置了 Bot 自定义图标，则忽略此项）。"
+
+#: channels/class-tvn-notify-channel-discord.php:57
+msgid "Enable Discord"
+msgstr "启用 Discord"
+
+#: channels/class-tvn-notify-channel-email.php:84
+msgid "Enable Email"
+msgstr "启用 Email"
+
+#: channels/class-tvn-notify-channel-slack.php:51
+msgid "Enable Slack"
+msgstr "启用 Slack"
+
+#: channels/class-tvn-notify-channel-telegram.php:55
+msgid "Enable Telegram"
+msgstr "启用 Telegram"
+
+#: includes/class-tvn-notify-admin.php:157
+msgid "Enable sending notifications (turning this off stops everything)"
+msgstr "启用通知发送（关闭此项将停止所有通知）"
+
+#: includes/class-tvn-notify-admin.php:329 includes/class-tvn-notify-admin.php:352
+msgid "Error"
+msgstr "错误"
+
+#: includes/class-tvn-notify-admin.php:197
+msgid "Example:"
+msgstr "示例："
+
+#: includes/class-tvn-notify-settings.php:107
+msgid "Failed login"
+msgstr "登录失败"
+
+#: includes/class-tvn-notify-listener.php:140
+msgid "Guest"
+msgstr "访客"
+
+#: includes/class-tvn-notify-admin.php:325
+msgid "Hook"
+msgstr "钩子"
+
+#: includes/class-tvn-notify-settings.php:103
+msgid "Logout"
+msgstr "登出"
+
+#: includes/class-tvn-notify-settings.php:145
+msgid "Media uploaded"
+msgstr "媒体已上传"
+
+#: includes/class-tvn-notify-admin.php:227
+msgid "Message template"
+msgstr "消息模板"
+
+#: includes/class-tvn-notify-settings.php:141
+msgid "New comment"
+msgstr "新评论"
+
+#: includes/class-tvn-notify-settings.php:111
+msgid "New user registration"
+msgstr "新用户注册"
+
+#: channels/class-tvn-notify-channel-email.php:102
+msgid "No admin users found."
+msgstr "未找到管理员用户。"
+
+#: includes/class-tvn-notify-admin.php:283
+msgid "No channel is ready. Enable and configure at least one channel."
+msgstr "没有可用的渠道。请启用并配置至少一个渠道。"
+
+#: includes/class-tvn-notify-admin.php:313
+msgid "No log entries yet."
+msgstr "暂无日志记录。"
+
+#: channels/class-tvn-notify-channel-email.php:212
+msgid "No valid recipient."
+msgstr "没有有效的收件人。"
+
+#: channels/class-tvn-notify-channel-email.php:31
+msgid "Notification: {action}"
+msgstr "通知：{action}"
+
+#: includes/class-tvn-notify-admin.php:34 includes/class-tvn-notify-admin.php:35
+msgid "Notify Hub"
+msgstr "Notify Hub"
+
+#: includes/class-tvn-notify-admin.php:350
+msgid "OK"
+msgstr "成功"
+
+#: includes/class-tvn-notify-admin.php:194
+msgid "One hook per line to catch actions from OTHER PLUGINS (WooCommerce, CF7, Awesome Support...). Format: hook_name or hook_name|number_of_args. Lines starting with # are comments."
+msgstr "每行一个钩子，用于捕获来自其他插件（WooCommerce、CF7、Awesome Support...）的操作。格式：hook_name 或 hook_name|number_of_args。以 # 开头的行为注释。"
+
+#: includes/class-tvn-notify-admin.php:211
+msgid "Only notify when the actor is logged in"
+msgstr "仅在操作者已登录时通知"
+
+#: includes/class-tvn-notify-admin.php:206
+msgid "Options"
+msgstr "选项"
+
+#: channels/class-tvn-notify-channel-email.php:120
+msgid "Other emails (optional)"
+msgstr "其他电子邮件（可选）"
+
+#: channels/class-tvn-notify-channel-slack.php:115
+msgid "Override the webhook default channel (e.g. #general or @user). Leave blank to use the webhook channel."
+msgstr "覆盖 Webhook 的默认频道（例如 #general 或 @user）。留空则使用 Webhook 的频道。"
+
+#: includes/class-tvn-notify-admin.php:149
+msgid "Overview"
+msgstr "概览"
+
+#: includes/class-tvn-notify-settings.php:123
+msgid "Password reset"
+msgstr "密码重置"
+
+#: includes/class-tvn-notify-settings.php:151
+msgid "Plugin activated"
+msgstr "插件已启用"
+
+#: includes/class-tvn-notify-settings.php:155
+msgid "Plugin deactivated"
+msgstr "插件已停用"
+
+#: includes/class-tvn-notify-settings.php:133
+msgid "Post moved to trash"
+msgstr "文章已移至回收站"
+
+#: includes/class-tvn-notify-settings.php:137
+msgid "Post permanently deleted"
+msgstr "文章已永久删除"
+
+#: includes/class-tvn-notify-settings.php:129
+msgid "Post status changed (publish / draft / pending...)"
+msgstr "文章状态已更改（发布 / 草稿 / 待审...）"
+
+#: includes/class-tvn-notify-settings.php:115
+msgid "Profile update"
+msgstr "资料更新"
+
+#: includes/class-tvn-notify-admin.php:310
+msgid "Recent send log"
+msgstr "最近的发送日志"
+
+#: channels/class-tvn-notify-channel-email.php:94
+msgid "Recipients (admin users)"
+msgstr "收件人（管理员用户）"
+
+#: includes/class-tvn-notify-admin.php:256
+msgid "Save settings"
+msgstr "保存设置"
+
+#: includes/class-tvn-notify-secret.php:49
+msgid "Saved (%s) — leave blank to keep it"
+msgstr "已保存（%s）— 留空以保留它"
+
+#: channels/class-tvn-notify-channel-discord.php:96 channels/class-tvn-notify-channel-slack.php:99
+msgid "Select image"
+msgstr "选择图片"
+
+#: includes/class-tvn-notify-admin.php:262
+msgid "Send a test message to every enabled and valid channel (save settings before testing)."
+msgstr "向每个已启用且有效的渠道发送一条测试消息（测试前请先保存设置）。"
+
+#: includes/class-tvn-notify-admin.php:141
+msgid "Send notifications to chat apps when a user performs an action you choose. Multi-channel architecture — currently supports Slack, ready to extend to Telegram, WhatsApp, X..."
+msgstr "当用户执行您所选择的操作时，向聊天应用发送通知。多渠道架构 — 目前支持 Slack，可轻松扩展到 Telegram、WhatsApp、X..."
+
+#: channels/class-tvn-notify-channel-discord.php:62
+msgid "Send notifications via Discord"
+msgstr "通过 Discord 发送通知"
+
+#: channels/class-tvn-notify-channel-email.php:89
+msgid "Send notifications via Email"
+msgstr "通过 Email 发送通知"
+
+#: channels/class-tvn-notify-channel-slack.php:56
+msgid "Send notifications via Slack"
+msgstr "通过 Slack 发送通知"
+
+#: channels/class-tvn-notify-channel-telegram.php:60
+msgid "Send notifications via Telegram"
+msgstr "通过 Telegram 发送通知"
+
+#: includes/class-tvn-notify-admin.php:261
+msgid "Send test"
+msgstr "发送测试"
+
+#: includes/class-tvn-notify-admin.php:266
+msgid "Send test message"
+msgstr "发送测试消息"
+
+#: channels/class-tvn-notify-channel-telegram.php:95
+msgid "Send without a notification sound (disable_notification)"
+msgstr "发送时不带通知声音（disable_notification）"
+
+#: includes/class-tvn-notify-admin.php:46
+msgid "Settings"
+msgstr "设置"
+
+#: channels/class-tvn-notify-channel-telegram.php:90
+msgid "Silent send"
+msgstr "静默发送"
+
+#: channels/class-tvn-notify-channel-slack.php:17
+msgid "Slack"
+msgstr "Slack"
+
+#: channels/class-tvn-notify-channel-slack.php:212
+msgid "Slack returned an error (HTTP %1$d): %2$s"
+msgstr "Slack 返回了一个错误（HTTP %1$d）：%2$s"
+
+#: channels/class-tvn-notify-channel-slack.php:143
+msgid "Slack: Webhook URL is invalid. It must look like https://hooks.slack.com/services/... (kept the previous value)."
+msgstr "Slack：Webhook URL 无效。其格式应类似 https://hooks.slack.com/services/...（已保留之前的值）。"
+
+#: includes/class-tvn-notify-admin.php:328
+msgid "Status"
+msgstr "状态"
+
+#: channels/class-tvn-notify-channel-email.php:129
+msgid "Subject"
+msgstr "主题"
+
+#: includes/class-tvn-notify-settings.php:99
+msgid "Successful login"
+msgstr "登录成功"
+
+#: includes/class-tvn-notify-settings.php:149
+msgid "System"
+msgstr "系统"
+
+#: includes/class-tvn-notify-admin.php:139
+msgid "TVN Notify Hub"
+msgstr "TVN Notify Hub"
+
+#: channels/class-tvn-notify-channel-telegram.php:24
+msgid "Telegram"
+msgstr "Telegram"
+
+#: channels/class-tvn-notify-channel-telegram.php:216
+msgid "Telegram returned an error (HTTP %1$d): %2$s"
+msgstr "Telegram 返回了一个错误（HTTP %1$d）：%2$s"
+
+#: channels/class-tvn-notify-channel-telegram.php:125
+msgid "Telegram: Bot Token is invalid. It must look like 123456789:AA... (from @BotFather, kept the previous value)."
+msgstr "Telegram：Bot Token 无效。其格式应类似 123456789:AA...（来自 @BotFather，已保留之前的值）。"
+
+#: includes/class-tvn-notify-listener.php:427
+msgid "Test message"
+msgstr "测试消息"
+
+#: includes/class-tvn-notify-admin.php:290
+msgid "Test sent: %1$d succeeded, %2$d failed. See error details in the log below."
+msgstr "测试已发送：%1$d 个成功，%2$d 个失败。请查看下方日志中的错误详情。"
+
+#: channels/class-tvn-notify-channel-slack.php:80
+msgid "The name that will be shown in the Slack conversation."
+msgstr "将在 Slack 会话中显示的名称。"
+
+#: includes/class-tvn-notify-settings.php:159
+msgid "Theme switched"
+msgstr "主题已切换"
+
+#: includes/class-tvn-notify-listener.php:437
+msgid "This is a test message for the TVN Notify Hub configuration."
+msgstr "这是一条用于测试 TVN Notify Hub 配置的消息。"
+
+#: includes/class-tvn-notify-admin.php:324
+msgid "Time"
+msgstr "时间"
+
+#: includes/class-tvn-notify-admin.php:327
+msgid "User"
+msgstr "用户"
+
+#: includes/class-tvn-notify-settings.php:119
+msgid "User deleted"
+msgstr "用户已删除"
+
+#: includes/class-tvn-notify-settings.php:97
+msgid "Users"
+msgstr "用户"
+
+#: channels/class-tvn-notify-channel-discord.php:67 channels/class-tvn-notify-channel-slack.php:61
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: channels/class-tvn-notify-channel-discord.php:145 channels/class-tvn-notify-channel-slack.php:159
+msgid "Webhook URL is not configured or is invalid."
+msgstr "Webhook URL 未配置或无效。"
+
+#: channels/class-tvn-notify-channel-discord.php:73
+msgid "Webhook URL of the Discord channel. Create it at: Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL."
+msgstr "Discord 频道的 Webhook URL。创建路径：Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL。"
+
+#: channels/class-tvn-notify-channel-slack.php:67
+msgid "Webhook URL provided by Slack. Create a new Incoming Webhook in your Slack workspace."
+msgstr "由 Slack 提供的 Webhook URL。请在您的 Slack 工作区中创建一个新的 Incoming Webhook。"
+
+#: includes/class-tvn-notify-admin.php:164
+msgid "Which actions do you want to be notified about?"
+msgstr "您希望收到哪些操作的通知？"
+
+#: includes/class-tvn-notify-admin.php:221
+msgid "Write a log on each send"
+msgstr "每次发送时写入日志"
+
+#: includes/class-tvn-notify-admin.php:77
+msgid "You do not have permission to perform this action."
+msgstr "您没有执行此操作的权限。"
+
+#: channels/class-tvn-notify-channel-email.php:232
+msgid "wp_mail() returned false — check the site mail / SMTP sending configuration."
+msgstr "wp_mail() 返回了 false — 请检查站点邮件 / SMTP 发送配置。"
+
+#: includes/class-tvn-notify-listener.php:223
+msgid "“%1$s”: %2$s → %3$s"
+msgstr "“%1$s”：%2$s → %3$s"

@@ -1,0 +1,467 @@
+# Copyright (C) 2024 TVN Notify Hub
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: TVN Notify Hub 1.0.0\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: tvn-notify-hub\n"
+
+#: includes/class-tvn-notify-listener.php:246
+msgid "%1$s commented on “%2$s”"
+msgstr "%1$s 님이 “%2$s”에 댓글을 남겼습니다"
+
+#: channels/class-tvn-notify-channel-email.php:125
+msgid "A list of emails, separated by commas (sent in addition to the selected admins)."
+msgstr "쉼표로 구분된 이메일 목록입니다(선택한 관리자에 더해 추가로 전송됩니다)."
+
+#: channels/class-tvn-notify-channel-telegram.php:73
+msgid "A token is already saved. Leave blank to keep it, or enter a new one to replace it."
+msgstr "토큰이 이미 저장되어 있습니다. 그대로 유지하려면 비워 두고, 교체하려면 새 토큰을 입력하세요."
+
+#: channels/class-tvn-notify-channel-telegram.php:85
+msgid "A user ID, a group ID (negative number), or a channel @username. Tip to get an ID: add the bot to a group then open https://api.telegram.org/bot<TOKEN>/getUpdates to see \"chat\":{\"id\":...}. For a channel, add the bot as an admin and use @username."
+msgstr "사용자 ID, 그룹 ID(음수), 또는 채널 @username입니다. ID를 얻는 팁: 봇을 그룹에 추가한 다음 https://api.telegram.org/bot<TOKEN>/getUpdates 를 열어 \"chat\":{\"id\":...} 를 확인하세요. 채널의 경우 봇을 관리자로 추가하고 @username 을 사용하세요."
+
+#: channels/class-tvn-notify-channel-discord.php:75 channels/class-tvn-notify-channel-slack.php:69
+msgid "A webhook is already saved. Leave blank to keep it, or enter a new one to replace it."
+msgstr "Webhook이 이미 저장되어 있습니다. 그대로 유지하려면 비워 두고, 교체하려면 새 값을 입력하세요."
+
+#: includes/class-tvn-notify-admin.php:152
+msgid "Activate"
+msgstr "활성화"
+
+#: includes/class-tvn-notify-admin.php:163
+msgid "Active Notifications — choose actions"
+msgstr "활성 알림 — 동작 선택"
+
+#: includes/class-tvn-notify-admin.php:300
+msgid "All log entries cleared."
+msgstr "모든 로그 항목이 삭제되었습니다."
+
+#: includes/class-tvn-notify-admin.php:216
+msgid "Attach the hook's technical arguments to the message (useful for debugging)"
+msgstr "훅의 기술적 인수를 메시지에 첨부합니다(디버깅에 유용)"
+
+#: includes/class-tvn-notify-listener.php:272
+msgid "Attempted username: %s"
+msgstr "시도한 사용자 이름: %s"
+
+#: includes/class-tvn-notify-admin.php:235
+msgid "Available placeholders:"
+msgstr "사용 가능한 자리표시자:"
+
+#: channels/class-tvn-notify-channel-discord.php:103
+msgid "Avatar image for the bot (public URL). Discord does not use emoji as an icon like Slack."
+msgstr "봇의 아바타 이미지(공개 URL)입니다. Discord는 Slack과 달리 이모지를 아이콘으로 사용하지 않습니다."
+
+#: channels/class-tvn-notify-channel-discord.php:90 channels/class-tvn-notify-channel-slack.php:93
+msgid "Bot Custom Icon"
+msgstr "Bot 사용자 지정 아이콘"
+
+#: channels/class-tvn-notify-channel-slack.php:84
+msgid "Bot Emoji"
+msgstr "Bot 이모지"
+
+#: channels/class-tvn-notify-channel-discord.php:81 channels/class-tvn-notify-channel-slack.php:75
+msgid "Bot Name"
+msgstr "Bot 이름"
+
+#: channels/class-tvn-notify-channel-telegram.php:65
+msgid "Bot Token"
+msgstr "Bot Token"
+
+#: channels/class-tvn-notify-channel-telegram.php:138
+msgid "Bot Token or Chat ID is not configured / is invalid."
+msgstr "Bot Token 또는 Chat ID가 설정되지 않았거나 유효하지 않습니다."
+
+#: includes/class-tvn-notify-admin.php:326
+msgid "Channel"
+msgstr "채널"
+
+#: channels/class-tvn-notify-channel-slack.php:110
+msgid "Channel (optional)"
+msgstr "채널(선택 사항)"
+
+#: includes/class-tvn-notify-admin.php:244
+msgid "Channels"
+msgstr "채널"
+
+#: channels/class-tvn-notify-channel-telegram.php:79
+msgid "Chat ID"
+msgstr "Chat ID"
+
+#: channels/class-tvn-notify-channel-email.php:116
+msgid "Check the admins who should receive notifications."
+msgstr "알림을 받을 관리자를 선택하세요."
+
+#: includes/class-tvn-notify-admin.php:318
+msgid "Clear all log"
+msgstr "모든 로그 지우기"
+
+#: channels/class-tvn-notify-channel-email.php:137 includes/class-tvn-notify-admin.php:230 includes/class-tvn-notify-settings.php:127
+msgid "Content"
+msgstr "내용"
+
+#: channels/class-tvn-notify-channel-telegram.php:71
+msgid "Create a bot by chatting with @BotFather on Telegram → /newbot → copy the token."
+msgstr "Telegram에서 @BotFather 와 대화하여 봇을 만드세요 → /newbot → 토큰을 복사하세요."
+
+#: includes/class-tvn-notify-admin.php:188
+msgid "Custom hooks"
+msgstr "사용자 지정 훅"
+
+#: channels/class-tvn-notify-channel-slack.php:106
+msgid "Custom icon image for the bot (takes priority over Bot Emoji). Should be ≤ 128px and ≤ 64KB."
+msgstr "봇의 사용자 지정 아이콘 이미지입니다(Bot 이모지보다 우선합니다). 128px 이하, 64KB 이하여야 합니다."
+
+#: channels/class-tvn-notify-channel-discord.php:22
+msgid "Discord"
+msgstr "Discord"
+
+#: channels/class-tvn-notify-channel-discord.php:193
+msgid "Discord returned an error (HTTP %1$d): %2$s"
+msgstr "Discord에서 오류를 반환했습니다(HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-discord.php:131
+msgid "Discord: Webhook URL is invalid. It must look like https://discord.com/api/webhooks/... (kept the previous value)."
+msgstr "Discord: Webhook URL이 유효하지 않습니다. https://discord.com/api/webhooks/... 형식이어야 합니다(이전 값을 유지했습니다)."
+
+#: channels/class-tvn-notify-channel-discord.php:86
+msgid "Display name of the bot in Discord (overrides the webhook default name)."
+msgstr "Discord에 표시되는 봇의 표시 이름입니다(Webhook 기본 이름을 덮어씁니다)."
+
+#: channels/class-tvn-notify-channel-email.php:23
+msgid "Email"
+msgstr "Email"
+
+#: channels/class-tvn-notify-channel-email.php:153
+msgid "Email template shared by ALL actions. Available placeholders:"
+msgstr "모든 동작이 공유하는 Email 템플릿입니다. 사용 가능한 자리표시자:"
+
+#: channels/class-tvn-notify-channel-slack.php:89
+msgid "Emoji used as the icon shown in chat, e.g. :zap: (ignored if Bot Custom Icon is set)."
+msgstr "채팅에 표시되는 아이콘으로 사용되는 이모지입니다(예: :zap:). Bot 사용자 지정 아이콘이 설정된 경우 무시됩니다."
+
+#: channels/class-tvn-notify-channel-discord.php:57
+msgid "Enable Discord"
+msgstr "Discord 사용"
+
+#: channels/class-tvn-notify-channel-email.php:84
+msgid "Enable Email"
+msgstr "Email 사용"
+
+#: channels/class-tvn-notify-channel-slack.php:51
+msgid "Enable Slack"
+msgstr "Slack 사용"
+
+#: channels/class-tvn-notify-channel-telegram.php:55
+msgid "Enable Telegram"
+msgstr "Telegram 사용"
+
+#: includes/class-tvn-notify-admin.php:157
+msgid "Enable sending notifications (turning this off stops everything)"
+msgstr "알림 전송 사용(이 기능을 끄면 모든 전송이 중지됩니다)"
+
+#: includes/class-tvn-notify-admin.php:329 includes/class-tvn-notify-admin.php:352
+msgid "Error"
+msgstr "오류"
+
+#: includes/class-tvn-notify-admin.php:197
+msgid "Example:"
+msgstr "예:"
+
+#: includes/class-tvn-notify-settings.php:107
+msgid "Failed login"
+msgstr "로그인 실패"
+
+#: includes/class-tvn-notify-listener.php:140
+msgid "Guest"
+msgstr "방문자"
+
+#: includes/class-tvn-notify-admin.php:325
+msgid "Hook"
+msgstr "훅"
+
+#: includes/class-tvn-notify-settings.php:103
+msgid "Logout"
+msgstr "로그아웃"
+
+#: includes/class-tvn-notify-settings.php:145
+msgid "Media uploaded"
+msgstr "미디어 업로드됨"
+
+#: includes/class-tvn-notify-admin.php:227
+msgid "Message template"
+msgstr "메시지 템플릿"
+
+#: includes/class-tvn-notify-settings.php:141
+msgid "New comment"
+msgstr "새 댓글"
+
+#: includes/class-tvn-notify-settings.php:111
+msgid "New user registration"
+msgstr "새 사용자 등록"
+
+#: channels/class-tvn-notify-channel-email.php:102
+msgid "No admin users found."
+msgstr "관리자 사용자를 찾을 수 없습니다."
+
+#: includes/class-tvn-notify-admin.php:283
+msgid "No channel is ready. Enable and configure at least one channel."
+msgstr "준비된 채널이 없습니다. 채널을 하나 이상 사용 설정하고 구성하세요."
+
+#: includes/class-tvn-notify-admin.php:313
+msgid "No log entries yet."
+msgstr "아직 로그 항목이 없습니다."
+
+#: channels/class-tvn-notify-channel-email.php:212
+msgid "No valid recipient."
+msgstr "유효한 수신자가 없습니다."
+
+#: channels/class-tvn-notify-channel-email.php:31
+msgid "Notification: {action}"
+msgstr "알림: {action}"
+
+#: includes/class-tvn-notify-admin.php:34 includes/class-tvn-notify-admin.php:35
+msgid "Notify Hub"
+msgstr "Notify Hub"
+
+#: includes/class-tvn-notify-admin.php:350
+msgid "OK"
+msgstr "확인"
+
+#: includes/class-tvn-notify-admin.php:194
+msgid "One hook per line to catch actions from OTHER PLUGINS (WooCommerce, CF7, Awesome Support...). Format: hook_name or hook_name|number_of_args. Lines starting with # are comments."
+msgstr "다른 플러그인(WooCommerce, CF7, Awesome Support...)의 동작을 포착하려면 한 줄에 훅 하나씩 입력하세요. 형식: hook_name 또는 hook_name|number_of_args. # 로 시작하는 줄은 주석입니다."
+
+#: includes/class-tvn-notify-admin.php:211
+msgid "Only notify when the actor is logged in"
+msgstr "수행자가 로그인한 경우에만 알림"
+
+#: includes/class-tvn-notify-admin.php:206
+msgid "Options"
+msgstr "옵션"
+
+#: channels/class-tvn-notify-channel-email.php:120
+msgid "Other emails (optional)"
+msgstr "기타 이메일(선택 사항)"
+
+#: channels/class-tvn-notify-channel-slack.php:115
+msgid "Override the webhook default channel (e.g. #general or @user). Leave blank to use the webhook channel."
+msgstr "Webhook 기본 채널을 재정의합니다(예: #general 또는 @user). Webhook 채널을 사용하려면 비워 두세요."
+
+#: includes/class-tvn-notify-admin.php:149
+msgid "Overview"
+msgstr "개요"
+
+#: includes/class-tvn-notify-settings.php:123
+msgid "Password reset"
+msgstr "비밀번호 재설정"
+
+#: includes/class-tvn-notify-settings.php:151
+msgid "Plugin activated"
+msgstr "플러그인 활성화됨"
+
+#: includes/class-tvn-notify-settings.php:155
+msgid "Plugin deactivated"
+msgstr "플러그인 비활성화됨"
+
+#: includes/class-tvn-notify-settings.php:133
+msgid "Post moved to trash"
+msgstr "글이 휴지통으로 이동됨"
+
+#: includes/class-tvn-notify-settings.php:137
+msgid "Post permanently deleted"
+msgstr "글이 영구적으로 삭제됨"
+
+#: includes/class-tvn-notify-settings.php:129
+msgid "Post status changed (publish / draft / pending...)"
+msgstr "글 상태 변경됨(발행 / 임시글 / 검토 대기...)"
+
+#: includes/class-tvn-notify-settings.php:115
+msgid "Profile update"
+msgstr "프로필 업데이트"
+
+#: includes/class-tvn-notify-admin.php:310
+msgid "Recent send log"
+msgstr "최근 전송 로그"
+
+#: channels/class-tvn-notify-channel-email.php:94
+msgid "Recipients (admin users)"
+msgstr "수신자(관리자 사용자)"
+
+#: includes/class-tvn-notify-admin.php:256
+msgid "Save settings"
+msgstr "설정 저장"
+
+#: includes/class-tvn-notify-secret.php:49
+msgid "Saved (%s) — leave blank to keep it"
+msgstr "저장됨(%s) — 그대로 유지하려면 비워 두세요"
+
+#: channels/class-tvn-notify-channel-discord.php:96 channels/class-tvn-notify-channel-slack.php:99
+msgid "Select image"
+msgstr "이미지 선택"
+
+#: includes/class-tvn-notify-admin.php:262
+msgid "Send a test message to every enabled and valid channel (save settings before testing)."
+msgstr "사용 설정되고 유효한 모든 채널에 테스트 메시지를 보냅니다(테스트 전에 설정을 저장하세요)."
+
+#: includes/class-tvn-notify-admin.php:141
+msgid "Send notifications to chat apps when a user performs an action you choose. Multi-channel architecture — currently supports Slack, ready to extend to Telegram, WhatsApp, X..."
+msgstr "사용자가 선택한 동작을 수행할 때 채팅 앱으로 알림을 보냅니다. 다중 채널 아키텍처 — 현재 Slack을 지원하며, Telegram, WhatsApp, X 등으로 확장할 준비가 되어 있습니다..."
+
+#: channels/class-tvn-notify-channel-discord.php:62
+msgid "Send notifications via Discord"
+msgstr "Discord를 통해 알림 전송"
+
+#: channels/class-tvn-notify-channel-email.php:89
+msgid "Send notifications via Email"
+msgstr "Email을 통해 알림 전송"
+
+#: channels/class-tvn-notify-channel-slack.php:56
+msgid "Send notifications via Slack"
+msgstr "Slack을 통해 알림 전송"
+
+#: channels/class-tvn-notify-channel-telegram.php:60
+msgid "Send notifications via Telegram"
+msgstr "Telegram을 통해 알림 전송"
+
+#: includes/class-tvn-notify-admin.php:261
+msgid "Send test"
+msgstr "테스트 전송"
+
+#: includes/class-tvn-notify-admin.php:266
+msgid "Send test message"
+msgstr "테스트 메시지 전송"
+
+#: channels/class-tvn-notify-channel-telegram.php:95
+msgid "Send without a notification sound (disable_notification)"
+msgstr "알림 소리 없이 전송(disable_notification)"
+
+#: includes/class-tvn-notify-admin.php:46
+msgid "Settings"
+msgstr "설정"
+
+#: channels/class-tvn-notify-channel-telegram.php:90
+msgid "Silent send"
+msgstr "무음 전송"
+
+#: channels/class-tvn-notify-channel-slack.php:17
+msgid "Slack"
+msgstr "Slack"
+
+#: channels/class-tvn-notify-channel-slack.php:212
+msgid "Slack returned an error (HTTP %1$d): %2$s"
+msgstr "Slack에서 오류를 반환했습니다(HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-slack.php:143
+msgid "Slack: Webhook URL is invalid. It must look like https://hooks.slack.com/services/... (kept the previous value)."
+msgstr "Slack: Webhook URL이 유효하지 않습니다. https://hooks.slack.com/services/... 형식이어야 합니다(이전 값을 유지했습니다)."
+
+#: includes/class-tvn-notify-admin.php:328
+msgid "Status"
+msgstr "상태"
+
+#: channels/class-tvn-notify-channel-email.php:129
+msgid "Subject"
+msgstr "제목"
+
+#: includes/class-tvn-notify-settings.php:99
+msgid "Successful login"
+msgstr "로그인 성공"
+
+#: includes/class-tvn-notify-settings.php:149
+msgid "System"
+msgstr "시스템"
+
+#: includes/class-tvn-notify-admin.php:139
+msgid "TVN Notify Hub"
+msgstr "TVN Notify Hub"
+
+#: channels/class-tvn-notify-channel-telegram.php:24
+msgid "Telegram"
+msgstr "Telegram"
+
+#: channels/class-tvn-notify-channel-telegram.php:216
+msgid "Telegram returned an error (HTTP %1$d): %2$s"
+msgstr "Telegram에서 오류를 반환했습니다(HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-telegram.php:125
+msgid "Telegram: Bot Token is invalid. It must look like 123456789:AA... (from @BotFather, kept the previous value)."
+msgstr "Telegram: Bot Token이 유효하지 않습니다. 123456789:AA... 형식이어야 합니다(@BotFather 에서 발급, 이전 값을 유지했습니다)."
+
+#: includes/class-tvn-notify-listener.php:427
+msgid "Test message"
+msgstr "테스트 메시지"
+
+#: includes/class-tvn-notify-admin.php:290
+msgid "Test sent: %1$d succeeded, %2$d failed. See error details in the log below."
+msgstr "테스트 전송 완료: %1$d건 성공, %2$d건 실패. 아래 로그에서 오류 세부 정보를 확인하세요."
+
+#: channels/class-tvn-notify-channel-slack.php:80
+msgid "The name that will be shown in the Slack conversation."
+msgstr "Slack 대화에 표시될 이름입니다."
+
+#: includes/class-tvn-notify-settings.php:159
+msgid "Theme switched"
+msgstr "테마 변경됨"
+
+#: includes/class-tvn-notify-listener.php:437
+msgid "This is a test message for the TVN Notify Hub configuration."
+msgstr "TVN Notify Hub 구성에 대한 테스트 메시지입니다."
+
+#: includes/class-tvn-notify-admin.php:324
+msgid "Time"
+msgstr "시간"
+
+#: includes/class-tvn-notify-admin.php:327
+msgid "User"
+msgstr "사용자"
+
+#: includes/class-tvn-notify-settings.php:119
+msgid "User deleted"
+msgstr "사용자 삭제됨"
+
+#: includes/class-tvn-notify-settings.php:97
+msgid "Users"
+msgstr "사용자"
+
+#: channels/class-tvn-notify-channel-discord.php:67 channels/class-tvn-notify-channel-slack.php:61
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: channels/class-tvn-notify-channel-discord.php:145 channels/class-tvn-notify-channel-slack.php:159
+msgid "Webhook URL is not configured or is invalid."
+msgstr "Webhook URL이 설정되지 않았거나 유효하지 않습니다."
+
+#: channels/class-tvn-notify-channel-discord.php:73
+msgid "Webhook URL of the Discord channel. Create it at: Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL."
+msgstr "Discord 채널의 Webhook URL입니다. 다음 경로에서 만드세요: Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL."
+
+#: channels/class-tvn-notify-channel-slack.php:67
+msgid "Webhook URL provided by Slack. Create a new Incoming Webhook in your Slack workspace."
+msgstr "Slack에서 제공하는 Webhook URL입니다. Slack 워크스페이스에서 새 Incoming Webhook을 만드세요."
+
+#: includes/class-tvn-notify-admin.php:164
+msgid "Which actions do you want to be notified about?"
+msgstr "어떤 동작에 대해 알림을 받으시겠습니까?"
+
+#: includes/class-tvn-notify-admin.php:221
+msgid "Write a log on each send"
+msgstr "전송할 때마다 로그 기록"
+
+#: includes/class-tvn-notify-admin.php:77
+msgid "You do not have permission to perform this action."
+msgstr "이 작업을 수행할 권한이 없습니다."
+
+#: channels/class-tvn-notify-channel-email.php:232
+msgid "wp_mail() returned false — check the site mail / SMTP sending configuration."
+msgstr "wp_mail() 이 false를 반환했습니다 — 사이트 메일 / SMTP 전송 구성을 확인하세요."
+
+#: includes/class-tvn-notify-listener.php:223
+msgid "“%1$s”: %2$s → %3$s"
+msgstr "“%1$s”: %2$s → %3$s"

@@ -1,0 +1,467 @@
+# Copyright (C) 2024 TVN Notify Hub
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: TVN Notify Hub 1.0.0\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: tvn-notify-hub\n"
+
+#: includes/class-tvn-notify-listener.php:246
+msgid "%1$s commented on “%2$s”"
+msgstr "%1$s đã bình luận về “%2$s”"
+
+#: channels/class-tvn-notify-channel-email.php:125
+msgid "A list of emails, separated by commas (sent in addition to the selected admins)."
+msgstr "Danh sách email, phân tách bằng dấu phẩy (gửi bổ sung ngoài các quản trị viên đã chọn)."
+
+#: channels/class-tvn-notify-channel-telegram.php:73
+msgid "A token is already saved. Leave blank to keep it, or enter a new one to replace it."
+msgstr "Đã có một token được lưu. Để trống để giữ nguyên, hoặc nhập token mới để thay thế."
+
+#: channels/class-tvn-notify-channel-telegram.php:85
+msgid "A user ID, a group ID (negative number), or a channel @username. Tip to get an ID: add the bot to a group then open https://api.telegram.org/bot<TOKEN>/getUpdates to see \"chat\":{\"id\":...}. For a channel, add the bot as an admin and use @username."
+msgstr "Một ID người dùng, ID nhóm (số âm), hoặc @username của kênh. Mẹo lấy ID: thêm bot vào một nhóm rồi mở https://api.telegram.org/bot<TOKEN>/getUpdates để xem \"chat\":{\"id\":...}. Đối với kênh, thêm bot làm quản trị viên và dùng @username."
+
+#: channels/class-tvn-notify-channel-discord.php:75 channels/class-tvn-notify-channel-slack.php:69
+msgid "A webhook is already saved. Leave blank to keep it, or enter a new one to replace it."
+msgstr "Đã có một webhook được lưu. Để trống để giữ nguyên, hoặc nhập webhook mới để thay thế."
+
+#: includes/class-tvn-notify-admin.php:152
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: includes/class-tvn-notify-admin.php:163
+msgid "Active Notifications — choose actions"
+msgstr "Thông báo đang bật — chọn hành động"
+
+#: includes/class-tvn-notify-admin.php:300
+msgid "All log entries cleared."
+msgstr "Đã xóa toàn bộ mục nhật ký."
+
+#: includes/class-tvn-notify-admin.php:216
+msgid "Attach the hook's technical arguments to the message (useful for debugging)"
+msgstr "Đính kèm các tham số kỹ thuật của hook vào tin nhắn (hữu ích khi gỡ lỗi)"
+
+#: includes/class-tvn-notify-listener.php:272
+msgid "Attempted username: %s"
+msgstr "Tên đăng nhập đã thử: %s"
+
+#: includes/class-tvn-notify-admin.php:235
+msgid "Available placeholders:"
+msgstr "Các placeholder khả dụng:"
+
+#: channels/class-tvn-notify-channel-discord.php:103
+msgid "Avatar image for the bot (public URL). Discord does not use emoji as an icon like Slack."
+msgstr "Ảnh đại diện cho bot (URL công khai). Discord không dùng emoji làm icon như Slack."
+
+#: channels/class-tvn-notify-channel-discord.php:90 channels/class-tvn-notify-channel-slack.php:99
+msgid "Bot Custom Icon"
+msgstr "Icon tùy chỉnh"
+
+#: channels/class-tvn-notify-channel-slack.php:84
+msgid "Bot Emoji"
+msgstr "Emoji bot"
+
+#: channels/class-tvn-notify-channel-discord.php:81 channels/class-tvn-notify-channel-slack.php:75
+msgid "Bot Name"
+msgstr "Tên bot"
+
+#: channels/class-tvn-notify-channel-telegram.php:65
+msgid "Bot Token"
+msgstr "Bot Token"
+
+#: channels/class-tvn-notify-channel-telegram.php:138
+msgid "Bot Token or Chat ID is not configured / is invalid."
+msgstr "Bot Token hoặc Chat ID chưa được cấu hình / không hợp lệ."
+
+#: includes/class-tvn-notify-admin.php:326
+msgid "Channel"
+msgstr "Kênh"
+
+#: channels/class-tvn-notify-channel-slack.php:110
+msgid "Channel (optional)"
+msgstr "Kênh (tùy chọn)"
+
+#: includes/class-tvn-notify-admin.php:244
+msgid "Channels"
+msgstr "Kênh"
+
+#: channels/class-tvn-notify-channel-telegram.php:79
+msgid "Chat ID"
+msgstr "Chat ID"
+
+#: channels/class-tvn-notify-channel-email.php:116
+msgid "Check the admins who should receive notifications."
+msgstr "Chọn các quản trị viên cần nhận thông báo."
+
+#: includes/class-tvn-notify-admin.php:318
+msgid "Clear all log"
+msgstr "Xóa toàn bộ nhật ký"
+
+#: channels/class-tvn-notify-channel-email.php:137 includes/class-tvn-notify-admin.php:230 includes/class-tvn-notify-settings.php:127
+msgid "Content"
+msgstr "Nội dung"
+
+#: channels/class-tvn-notify-channel-telegram.php:71
+msgid "Create a bot by chatting with @BotFather on Telegram → /newbot → copy the token."
+msgstr "Tạo bot bằng cách trò chuyện với @BotFather trên Telegram → /newbot → sao chép token."
+
+#: includes/class-tvn-notify-admin.php:188
+msgid "Custom hooks"
+msgstr "Hook tùy chỉnh"
+
+#: channels/class-tvn-notify-channel-slack.php:106
+msgid "Custom icon image for the bot (takes priority over Bot Emoji). Should be ≤ 128px and ≤ 64KB."
+msgstr "Ảnh icon tùy chỉnh cho bot (ưu tiên hơn Emoji bot). Nên ≤ 128px và ≤ 64KB."
+
+#: channels/class-tvn-notify-channel-discord.php:22
+msgid "Discord"
+msgstr "Discord"
+
+#: channels/class-tvn-notify-channel-discord.php:193
+msgid "Discord returned an error (HTTP %1$d): %2$s"
+msgstr "Discord trả về lỗi (HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-discord.php:131
+msgid "Discord: Webhook URL is invalid. It must look like https://discord.com/api/webhooks/... (kept the previous value)."
+msgstr "Discord: Webhook URL không hợp lệ. Nó phải có dạng https://discord.com/api/webhooks/... (đã giữ lại giá trị trước đó)."
+
+#: channels/class-tvn-notify-channel-discord.php:86
+msgid "Display name of the bot in Discord (overrides the webhook default name)."
+msgstr "Tên hiển thị của bot trong Discord (ghi đè tên mặc định của webhook)."
+
+#: channels/class-tvn-notify-channel-email.php:23
+msgid "Email"
+msgstr "Email"
+
+#: channels/class-tvn-notify-channel-email.php:153
+msgid "Email template shared by ALL actions. Available placeholders:"
+msgstr "Mẫu email dùng chung cho TẤT CẢ hành động. Các placeholder khả dụng:"
+
+#: channels/class-tvn-notify-channel-slack.php:89
+msgid "Emoji used as the icon shown in chat, e.g. :zap: (ignored if Bot Custom Icon is set)."
+msgstr "Emoji dùng làm icon hiển thị trong cuộc trò chuyện, ví dụ :zap: (bỏ qua nếu đã đặt Icon tùy chỉnh)."
+
+#: channels/class-tvn-notify-channel-discord.php:57
+msgid "Enable Discord"
+msgstr "Bật Discord"
+
+#: channels/class-tvn-notify-channel-email.php:84
+msgid "Enable Email"
+msgstr "Bật Email"
+
+#: channels/class-tvn-notify-channel-slack.php:51
+msgid "Enable Slack"
+msgstr "Bật Slack"
+
+#: channels/class-tvn-notify-channel-telegram.php:55
+msgid "Enable Telegram"
+msgstr "Bật Telegram"
+
+#: includes/class-tvn-notify-admin.php:157
+msgid "Enable sending notifications (turning this off stops everything)"
+msgstr "Bật gửi thông báo (tắt mục này sẽ dừng tất cả)"
+
+#: includes/class-tvn-notify-admin.php:329 includes/class-tvn-notify-admin.php:352
+msgid "Error"
+msgstr "Lỗi"
+
+#: includes/class-tvn-notify-admin.php:197
+msgid "Example:"
+msgstr "Ví dụ:"
+
+#: includes/class-tvn-notify-settings.php:107
+msgid "Failed login"
+msgstr "Đăng nhập thất bại"
+
+#: includes/class-tvn-notify-listener.php:140
+msgid "Guest"
+msgstr "Khách"
+
+#: includes/class-tvn-notify-admin.php:325
+msgid "Hook"
+msgstr "Hook"
+
+#: includes/class-tvn-notify-settings.php:103
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: includes/class-tvn-notify-settings.php:145
+msgid "Media uploaded"
+msgstr "Đã tải lên media"
+
+#: includes/class-tvn-notify-admin.php:227
+msgid "Message template"
+msgstr "Mẫu tin nhắn"
+
+#: includes/class-tvn-notify-settings.php:141
+msgid "New comment"
+msgstr "Bình luận mới"
+
+#: includes/class-tvn-notify-settings.php:111
+msgid "New user registration"
+msgstr "Đăng ký người dùng mới"
+
+#: channels/class-tvn-notify-channel-email.php:102
+msgid "No admin users found."
+msgstr "Không tìm thấy người dùng quản trị nào."
+
+#: includes/class-tvn-notify-admin.php:283
+msgid "No channel is ready. Enable and configure at least one channel."
+msgstr "Chưa có kênh nào sẵn sàng. Hãy bật và cấu hình ít nhất một kênh."
+
+#: includes/class-tvn-notify-admin.php:313
+msgid "No log entries yet."
+msgstr "Chưa có mục nhật ký nào."
+
+#: channels/class-tvn-notify-channel-email.php:212
+msgid "No valid recipient."
+msgstr "Không có người nhận hợp lệ."
+
+#: channels/class-tvn-notify-channel-email.php:31
+msgid "Notification: {action}"
+msgstr "Thông báo: {action}"
+
+#: includes/class-tvn-notify-admin.php:34 includes/class-tvn-notify-admin.php:35
+msgid "Notify Hub"
+msgstr "Notify Hub"
+
+#: includes/class-tvn-notify-admin.php:350
+msgid "OK"
+msgstr "OK"
+
+#: includes/class-tvn-notify-admin.php:194
+msgid "One hook per line to catch actions from OTHER PLUGINS (WooCommerce, CF7, Awesome Support...). Format: hook_name or hook_name|number_of_args. Lines starting with # are comments."
+msgstr "Mỗi dòng một hook để bắt các hành động từ CÁC PLUGIN KHÁC (WooCommerce, CF7, Awesome Support...). Định dạng: hook_name hoặc hook_name|number_of_args. Các dòng bắt đầu bằng # là chú thích."
+
+#: includes/class-tvn-notify-admin.php:211
+msgid "Only notify when the actor is logged in"
+msgstr "Chỉ thông báo khi người thực hiện đã đăng nhập"
+
+#: includes/class-tvn-notify-admin.php:206
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: channels/class-tvn-notify-channel-email.php:120
+msgid "Other emails (optional)"
+msgstr "Email khác (tùy chọn)"
+
+#: channels/class-tvn-notify-channel-slack.php:115
+msgid "Override the webhook default channel (e.g. #general or @user). Leave blank to use the webhook channel."
+msgstr "Ghi đè kênh mặc định của webhook (ví dụ #general hoặc @user). Để trống để dùng kênh của webhook."
+
+#: includes/class-tvn-notify-admin.php:149
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: includes/class-tvn-notify-settings.php:123
+msgid "Password reset"
+msgstr "Đặt lại mật khẩu"
+
+#: includes/class-tvn-notify-settings.php:151
+msgid "Plugin activated"
+msgstr "Đã kích hoạt plugin"
+
+#: includes/class-tvn-notify-settings.php:155
+msgid "Plugin deactivated"
+msgstr "Đã hủy kích hoạt plugin"
+
+#: includes/class-tvn-notify-settings.php:133
+msgid "Post moved to trash"
+msgstr "Bài viết đã chuyển vào thùng rác"
+
+#: includes/class-tvn-notify-settings.php:137
+msgid "Post permanently deleted"
+msgstr "Bài viết đã bị xóa vĩnh viễn"
+
+#: includes/class-tvn-notify-settings.php:129
+msgid "Post status changed (publish / draft / pending...)"
+msgstr "Trạng thái bài viết đã thay đổi (publish / draft / pending...)"
+
+#: includes/class-tvn-notify-settings.php:115
+msgid "Profile update"
+msgstr "Cập nhật hồ sơ"
+
+#: includes/class-tvn-notify-admin.php:310
+msgid "Recent send log"
+msgstr "Nhật ký gửi gần đây"
+
+#: channels/class-tvn-notify-channel-email.php:94
+msgid "Recipients (admin users)"
+msgstr "Người nhận (người dùng quản trị)"
+
+#: includes/class-tvn-notify-admin.php:256
+msgid "Save settings"
+msgstr "Lưu cấu hình"
+
+#: includes/class-tvn-notify-secret.php:49
+msgid "Saved (%s) — leave blank to keep it"
+msgstr "Đã lưu (%s) — để trống để giữ nguyên"
+
+#: channels/class-tvn-notify-channel-discord.php:96 channels/class-tvn-notify-channel-slack.php:99
+msgid "Select image"
+msgstr "Chọn ảnh"
+
+#: includes/class-tvn-notify-admin.php:262
+msgid "Send a test message to every enabled and valid channel (save settings before testing)."
+msgstr "Gửi tin nhắn thử đến mọi kênh đã bật và hợp lệ (hãy lưu cấu hình trước khi thử)."
+
+#: includes/class-tvn-notify-admin.php:141
+msgid "Send notifications to chat apps when a user performs an action you choose. Multi-channel architecture — currently supports Slack, ready to extend to Telegram, WhatsApp, X..."
+msgstr "Gửi thông báo đến các ứng dụng chat khi người dùng thực hiện hành động bạn chọn. Kiến trúc đa kênh — hiện hỗ trợ Slack, sẵn sàng mở rộng sang Telegram, WhatsApp, X..."
+
+#: channels/class-tvn-notify-channel-discord.php:62
+msgid "Send notifications via Discord"
+msgstr "Gửi thông báo qua Discord"
+
+#: channels/class-tvn-notify-channel-email.php:89
+msgid "Send notifications via Email"
+msgstr "Gửi thông báo qua Email"
+
+#: channels/class-tvn-notify-channel-slack.php:56
+msgid "Send notifications via Slack"
+msgstr "Gửi thông báo qua Slack"
+
+#: channels/class-tvn-notify-channel-telegram.php:60
+msgid "Send notifications via Telegram"
+msgstr "Gửi thông báo qua Telegram"
+
+#: includes/class-tvn-notify-admin.php:261
+msgid "Send test"
+msgstr "Gửi thử"
+
+#: includes/class-tvn-notify-admin.php:266
+msgid "Send test message"
+msgstr "Gửi tin nhắn thử"
+
+#: channels/class-tvn-notify-channel-telegram.php:95
+msgid "Send without a notification sound (disable_notification)"
+msgstr "Gửi không kèm âm báo (disable_notification)"
+
+#: includes/class-tvn-notify-admin.php:46
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: channels/class-tvn-notify-channel-telegram.php:90
+msgid "Silent send"
+msgstr "Gửi im lặng"
+
+#: channels/class-tvn-notify-channel-slack.php:17
+msgid "Slack"
+msgstr "Slack"
+
+#: channels/class-tvn-notify-channel-slack.php:212
+msgid "Slack returned an error (HTTP %1$d): %2$s"
+msgstr "Slack trả về lỗi (HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-slack.php:143
+msgid "Slack: Webhook URL is invalid. It must look like https://hooks.slack.com/services/... (kept the previous value)."
+msgstr "Slack: Webhook URL không hợp lệ. Nó phải có dạng https://hooks.slack.com/services/... (đã giữ lại giá trị trước đó)."
+
+#: includes/class-tvn-notify-admin.php:328
+msgid "Status"
+msgstr "Trạng thái"
+
+#: channels/class-tvn-notify-channel-email.php:129
+msgid "Subject"
+msgstr "Tiêu đề"
+
+#: includes/class-tvn-notify-settings.php:99
+msgid "Successful login"
+msgstr "Đăng nhập thành công"
+
+#: includes/class-tvn-notify-settings.php:149
+msgid "System"
+msgstr "Hệ thống"
+
+#: includes/class-tvn-notify-admin.php:139
+msgid "TVN Notify Hub"
+msgstr "TVN Notify Hub"
+
+#: channels/class-tvn-notify-channel-telegram.php:24
+msgid "Telegram"
+msgstr "Telegram"
+
+#: channels/class-tvn-notify-channel-telegram.php:216
+msgid "Telegram returned an error (HTTP %1$d): %2$s"
+msgstr "Telegram trả về lỗi (HTTP %1$d): %2$s"
+
+#: channels/class-tvn-notify-channel-telegram.php:125
+msgid "Telegram: Bot Token is invalid. It must look like 123456789:AA... (from @BotFather, kept the previous value)."
+msgstr "Telegram: Bot Token không hợp lệ. Nó phải có dạng 123456789:AA... (từ @BotFather, đã giữ lại giá trị trước đó)."
+
+#: includes/class-tvn-notify-listener.php:427
+msgid "Test message"
+msgstr "Tin nhắn thử"
+
+#: includes/class-tvn-notify-admin.php:290
+msgid "Test sent: %1$d succeeded, %2$d failed. See error details in the log below."
+msgstr "Đã gửi thử: %1$d thành công, %2$d thất bại. Xem chi tiết lỗi trong nhật ký bên dưới."
+
+#: channels/class-tvn-notify-channel-slack.php:80
+msgid "The name that will be shown in the Slack conversation."
+msgstr "Tên sẽ được hiển thị trong cuộc trò chuyện Slack."
+
+#: includes/class-tvn-notify-settings.php:159
+msgid "Theme switched"
+msgstr "Đã đổi giao diện"
+
+#: includes/class-tvn-notify-listener.php:437
+msgid "This is a test message for the TVN Notify Hub configuration."
+msgstr "Đây là tin nhắn thử cho cấu hình TVN Notify Hub."
+
+#: includes/class-tvn-notify-admin.php:324
+msgid "Time"
+msgstr "Thời gian"
+
+#: includes/class-tvn-notify-admin.php:327
+msgid "User"
+msgstr "Người dùng"
+
+#: includes/class-tvn-notify-settings.php:119
+msgid "User deleted"
+msgstr "Đã xóa người dùng"
+
+#: includes/class-tvn-notify-settings.php:97
+msgid "Users"
+msgstr "Người dùng"
+
+#: channels/class-tvn-notify-channel-discord.php:67 channels/class-tvn-notify-channel-slack.php:61
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: channels/class-tvn-notify-channel-discord.php:145 channels/class-tvn-notify-channel-slack.php:159
+msgid "Webhook URL is not configured or is invalid."
+msgstr "Webhook URL chưa được cấu hình hoặc không hợp lệ."
+
+#: channels/class-tvn-notify-channel-discord.php:73
+msgid "Webhook URL of the Discord channel. Create it at: Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL."
+msgstr "Webhook URL của kênh Discord. Tạo tại: Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL."
+
+#: channels/class-tvn-notify-channel-slack.php:67
+msgid "Webhook URL provided by Slack. Create a new Incoming Webhook in your Slack workspace."
+msgstr "Webhook URL do Slack cung cấp. Tạo một Incoming Webhook mới trong workspace Slack của bạn."
+
+#: includes/class-tvn-notify-admin.php:164
+msgid "Which actions do you want to be notified about?"
+msgstr "Bạn muốn được thông báo về những hành động nào?"
+
+#: includes/class-tvn-notify-admin.php:221
+msgid "Write a log on each send"
+msgstr "Ghi nhật ký mỗi lần gửi"
+
+#: includes/class-tvn-notify-admin.php:77
+msgid "You do not have permission to perform this action."
+msgstr "Bạn không có quyền thực hiện hành động này."
+
+#: channels/class-tvn-notify-channel-email.php:232
+msgid "wp_mail() returned false — check the site mail / SMTP sending configuration."
+msgstr "wp_mail() trả về false — hãy kiểm tra cấu hình gửi mail / SMTP của trang web."
+
+#: includes/class-tvn-notify-listener.php:223
+msgid "“%1$s”: %2$s → %3$s"
+msgstr "“%1$s”: %2$s → %3$s"
