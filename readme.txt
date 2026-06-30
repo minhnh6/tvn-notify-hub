@@ -1,5 +1,5 @@
 === TVN Notify Hub ===
-Contributors: minhnh6
+Contributors: nguyenhuuminh
 Tags: notifications, slack, discord, telegram, webhook
 Requires at least: 5.3
 Tested up to: 7.0
